@@ -1,0 +1,12 @@
+﻿  cWorkerThread.cpp
+  Main.cpp
+  코드를 생성하고 있습니다...
+cMysql.obj : error LNK2019: _mysql_error@4"public: void __thiscall cMysql::PrintLastError(struct MYSQL *)" (?PrintLastError@cMysql@@QAEXPAUMYSQL@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+cMysql.obj : error LNK2019: _mysql_init@4"public: __thiscall cMysql::cMysql(void)" (??0cMysql@@QAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+cMysql.obj : error LNK2019: _mysql_real_connect@32"public: struct MYSQL * __thiscall cMysql::MakeConnectMysql(void)" (?MakeConnectMysql@cMysql@@QAEPAUMYSQL@@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+cMysql.obj : error LNK2019: _mysql_query@8"public: bool __thiscall cMysql::LoginCheck(class PACKET_HEAD *,class cUser *)" (?LoginCheck@cMysql@@QAE_NPAVPACKET_HEAD@@PAVcUser@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+cMysql.obj : error LNK2019: _mysql_store_result@4"public: bool __thiscall cMysql::LoginCheck(class PACKET_HEAD *,class cUser *)" (?LoginCheck@cMysql@@QAE_NPAVPACKET_HEAD@@PAVcUser@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+cMysql.obj : error LNK2019: _mysql_fetch_row@4"public: bool __thiscall cMysql::LoginCheck(class PACKET_HEAD *,class cUser *)" (?LoginCheck@cMysql@@QAE_NPAVPACKET_HEAD@@PAVcUser@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+cMysql.obj : error LNK2019: _mysql_close@4"public: __thiscall cMysql::~cMysql(void)" (??1cMysql@@QAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+libmysql.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\lwb11\source\repos\ReNewModel_Sever\Debug\ReNewModel_Sever.exe : fatal error LNK1120: 7개의 확인할 수 없는 외부 참조입니다.
